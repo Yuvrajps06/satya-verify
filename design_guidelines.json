@@ -1,0 +1,127 @@
+{
+  "identity": {
+    "name": "SATYA-VERIFY",
+    "persona": "The Digital Truth-Seeker",
+    "vibe": "Journalistic Authority meets Silicon Valley Precision",
+    "archetype": "Swiss High-Contrast with Indian Soul"
+  },
+  "typography": {
+    "primary_font": "Public Sans",
+    "secondary_font": "Merriweather",
+    "mono_font": "JetBrains Mono",
+    "h1": "font-serif font-black tracking-tight text-5xl md:text-7xl leading-[0.9]",
+    "h2": "font-serif font-bold tracking-tight text-3xl md:text-5xl",
+    "h3": "font-sans font-semibold tracking-normal text-xl md:text-2xl uppercase",
+    "body": "font-sans text-base md:text-lg leading-relaxed text-slate-700 dark:text-slate-300",
+    "caption": "font-mono text-xs tracking-wider uppercase text-slate-500",
+    "verdict_text": "font-serif font-black italic tracking-tighter uppercase"
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "name": "Truth Blue",
+        "hex": "#1e3a8a",
+        "tailwind": "bg-blue-900"
+      },
+      "secondary": {
+        "name": "Alert Saffron",
+        "hex": "#ea580c",
+        "tailwind": "bg-orange-600"
+      },
+      "background": {
+        "light": "#f8fafc",
+        "dark": "#020617"
+      },
+      "surface": {
+        "light": "#ffffff",
+        "dark": "#0f172a"
+      }
+    },
+    "semantic": {
+      "true": "text-emerald-700 bg-emerald-50 border-emerald-200 dark:bg-emerald-950/30 dark:text-emerald-400",
+      "false": "text-rose-700 bg-rose-50 border-rose-200 dark:bg-rose-950/30 dark:text-rose-400",
+      "misleading": "text-orange-700 bg-orange-50 border-orange-200 dark:bg-orange-950/30 dark:text-orange-400",
+      "unverified": "text-slate-600 bg-slate-100 border-slate-200 dark:bg-slate-800 dark:text-slate-400"
+    }
+  },
+  "visual_enhancers": {
+    "textures": {
+      "noise": "bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20",
+      "paper": "bg-[#fdfbf7]"
+    },
+    "shadows": {
+      "card": "shadow-[0_2px_8px_rgba(0,0,0,0.08)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition-shadow duration-300",
+      "float": "shadow-[0_20px_50px_rgba(0,0,0,0.1)]"
+    },
+    "borders": {
+      "subtle": "border border-slate-200 dark:border-slate-800",
+      "focus": "ring-2 ring-blue-900 ring-offset-2"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_spacing": "py-16 md:py-24",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8",
+    "hero_split": "grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-blue-900 text-white hover:bg-blue-800 rounded-none px-8 py-3 font-bold tracking-wide shadow-lg hover:-translate-y-0.5 transition-all",
+      "secondary": "bg-white text-blue-900 border-2 border-blue-900 hover:bg-blue-50 rounded-none px-8 py-3 font-bold tracking-wide transition-all",
+      "ghost": "text-slate-600 hover:text-blue-900 hover:bg-slate-100 rounded-md px-4 py-2 font-medium transition-all"
+    },
+    "cards": {
+      "verdict": "relative overflow-hidden bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-6 md:p-8 rounded-xl",
+      "news_item": "group relative bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 p-6 hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors"
+    },
+    "inputs": {
+      "search": "w-full bg-white dark:bg-slate-950 border-2 border-slate-200 dark:border-slate-800 focus:border-blue-900 dark:focus:border-blue-500 rounded-lg px-6 py-4 text-lg shadow-sm transition-all placeholder:text-slate-400"
+    }
+  },
+  "motion": {
+    "verdict_stamp": {
+      "initial": { "scale": 2, "opacity": 0, "rotate": -15 },
+      "animate": { "scale": 1, "opacity": 1, "rotate": -5 },
+      "transition": { "type": "spring", "stiffness": 300, "damping": 15 }
+    },
+    "fade_up": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "transition": { "duration": 0.5 }
+    }
+  },
+  "image_urls": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1654262609484-76d1a8f3b016?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBqb3VybmFsaXN0JTIwd29ya2luZyUyMGxhcHRvcHxlbnwwfHx8fDE3Njg4MjY2NzF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Indian journalist analyzing data",
+      "category": "hero_background"
+    },
+    "verification_abstract": {
+      "url": "https://images.unsplash.com/photo-1666624833516-6d0e320c610d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbmV3cyUyMHZlcmlmaWNhdGlvbiUyMGFic3RyYWN0fGVufDB8fHx8MTc2ODgyNjY3NHww&ixlib=rb-4.1.0&q=85",
+      "alt": "Digital verification network",
+      "category": "feature_graphic"
+    },
+    "trust_signals": [
+      "https://images.unsplash.com/photo-1740663173325-c3000e33c830?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBqb3VybmFsaXN0JTIwd29ya2luZyUyMGxhcHRvcHxlbnwwfHx8fDE3Njg4MjY2NzF8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1754091152248-01b2e298635a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBqb3VybmFsaXN0JTIwd29ya2luZyUyMGxhcHRvcHxlbnwwfHx8fDE3Njg4MjY2NzF8MA&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Use 'Merriweather' font for all Headings to give a journalistic feel.",
+    "Implement the 'Verdict Stamp' animation using Framer Motion when a result is displayed.",
+    "The 'TRUE' verdict should be Emerald Green, 'FALSE' should be Rose Red, 'MISLEADING' should be Orange.",
+    "Use the 'Noise' texture overlay on the main background to avoid a flat digital look.",
+    "For the Input Form, make it look like a 'Search Engine' but with more depth (shadows).",
+    "Ensure the 'History' page uses a dense table layout for efficiency.",
+    "Use the provided image URLs for the Hero section and Feature cards.",
+    "Do not use gradients for backgrounds; use solid colors or subtle textures.",
+    "Ensure all interactive elements have 'data-testid' attributes."
+  ],
+  "universal_guidelines": [
+    "Avoid generic 'AI slop' aesthetics; aim for a bespoke, editorial look.",
+    "Use 2-3x more spacing than typical designs.",
+    "Every interaction needs micro-animations.",
+    "Dark colors look good when used independently without gradients.",
+    "Create depth through layered design elements with z-index hierarchy."
+  ]
+}
